@@ -32,30 +32,90 @@ body {
   }
 }
 
-.images {
+/* .images {
   width: 100px;
   height: 100px;
-  padding: 20px;
 }
 
-/*
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; 
+  width: 100px; 
 
-// Putting pictures in nice collumns
+}
+
 .column {
+
+}
+
+.column:hover .overlay {
+  opacity: .8;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.row {
   float: left;
-  width: 33.33%;
+  width: 100px;
+  margin: auto;
+  margin-left: 10px;
+  padding: 5px;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-// making images the size I want
+
+/* .navBar {
+
+} */ 
+
+
+
 img {
   float: center;
-  width:  300px;
-  height: 300px;
+  width:  250px;
+  height: 250px;
   object-fit: cover;
 }
-
-*/
+.column {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  transition: .5s ease;
+  background-color: rgb(21, 8, 95);
+}
+.column:hover .overlay {
+  opacity: .8;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.row {
+  float: left;
+  width: 250px;
+  margin: auto;
+  margin-left: 10px;
+  padding: 5px; 
+}
