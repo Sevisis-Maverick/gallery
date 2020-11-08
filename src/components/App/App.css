@@ -2,11 +2,17 @@
   text-align: center;
 }
 
+body {
+  font-family: verdana, arial, serif;
+  color: #5070a0;
+  background-color: #292929;
+}
+
 .App-header {
   background-color: #222;
   height: 70px;
   padding: 20px;
-  color: white;
+  color: rgb(156, 56, 56);
 }
 
 .App-title {
@@ -18,6 +24,99 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .images {
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; 
+  width: 100px; 
+
+}
+
+.column {
+
+}
+
+.column:hover .overlay {
+  opacity: .8;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.row {
+  float: left;
+  width: 100px;
+  margin: auto;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+/* .navBar {
+
+} */ 
+
+
+
+img {
+  float: center;
+  width:  250px;
+  height: 250px;
+  object-fit: cover;
+}
+.column {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  /* opacity: 0.0;  */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  transition: .5s ease;
+  background-color: rgb(21, 8, 95);
+}
+/* .column:hover .overlay {
+  opacity: .8;
+} */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.row {
+  float: left;
+  width: 250px;
+  margin: auto;
+  margin-left: 10px;
+  padding: 5px; 
 }

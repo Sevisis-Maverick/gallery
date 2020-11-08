@@ -4,6 +4,6 @@
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+A simple gallery website that's built to display images, show descriptions, and the number of likes one image recieves. 
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
+Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
